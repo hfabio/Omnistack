@@ -9,12 +9,12 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 mongoose.connect('mongodb+srv://semana:semanaomnistack@cluster0-r0s4l.mongodb.net/test?retryWrites=true&w=majority', {
-    useNewUrlParser: true
+  useNewUrlParser: true,
 });
 
 app.use((req, resp, next) => {
-    req.io = io;
-    next();
+  req.io = io;
+  next();
 });
 
 app.use(cors());
