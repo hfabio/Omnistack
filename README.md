@@ -4,9 +4,9 @@ Projeto da semana Omnistack
 
 ## Getting Started
 
-This project was created with Node.JS, ReactJS and React-native. Back-end uses nodemon, so you just need to ```yarn dev``` inside the folder to run the server.
+This project was created with Node.JS, ReactJS and React-native. Back-end uses nodemon, so you just need to ```yarn dev``` inside the folder to run the server, then run ```yarn start``` in front-end folder to run the website and ```react-native run-android``` in mobile folder to run on emulator the mobile version.
 
-### Prerequisites
+### Pre requisites
 
 ```
 NodeJS
@@ -14,43 +14,28 @@ NPM
 Yarn
 react-app
 react-native-app
+genymotion
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+First clone this repository
 
 ```
-Give the example
+git clone ...
 ```
 
-And repeat
+And then run the commands to install all dependencies in each folder (backend, frontend, mobile)
 
 ```
-until finished
+yarn start
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Node.js](https://github.com/nodejs) - The server was built with node
+* [Reactjs](https://github.com/facebook/react) - The front-end was built with Reactjs
+* [React-native](https://github.com/facebook/react-native) - Mobile version was built with React-native
 
 ## Authors
 
